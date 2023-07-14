@@ -19,7 +19,7 @@ void	ft_rev_int_tab(int *tab, int size)
 	int	temp;
 
 	start = 0;
-	end = size - y;
+	end = size - tab;
 	while (start < end)
 	{
 		temp = tab[start];
